@@ -1,2 +1,2 @@
-# Linux_Administration_Automation
+# Linux Administration: Automation
 Linux automation with three different distributions (Ubuntu, openSUSE and Red Hat)!
