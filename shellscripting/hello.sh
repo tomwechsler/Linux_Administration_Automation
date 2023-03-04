@@ -1,3 +1,3 @@
 #!/bin/bash
-
-echo "Hello, world!"
+read -p "Enter a name: "
+echo "Hello, $REPLAY"
