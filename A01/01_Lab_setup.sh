@@ -29,6 +29,16 @@ cd Linux_Administration_Automation/A01
 #The Vagrantfile
 vim Vagrantfile
 
+#Change to the home directory
+cd
+
+mkdir linauto
+
+cd linauto
+
+#Copy the Vagrantfile into your project directory
+cp Linux_Administration_Automation/A01/Vagrantfile .
+
 #Start the deployment
 vagrant up
 
