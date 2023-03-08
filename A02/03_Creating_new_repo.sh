@@ -42,5 +42,5 @@ git log --oneline
 
 
 
-Even if you are not going to collaborate ou your projects a local git repo will low you to
+Even if you are not going to collaborate on your projects a local git repo will low you to
 revert changes or maintain different versions of the same file.

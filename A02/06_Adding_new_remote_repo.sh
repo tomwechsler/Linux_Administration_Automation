@@ -32,7 +32,7 @@ git push --set-upstream origin master
 git config --list
 
 #Lets clone the repo
-cd
+cd #back to the home directory
 
 mkdir play
 
@@ -41,6 +41,8 @@ cd play
 git clone ~/git/project1.git
 
 ls
+
+cd project1
 
 #Create a new file
 touch file1

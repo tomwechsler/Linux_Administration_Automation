@@ -12,7 +12,7 @@ git config --global --list
 #We need at the minimum the email and username
 git config --global user.email "tux@example.com"
 
-git config --global user.name " Tux Penguin"
+git config --global user.name "Tux Penguin"
 
 #Now we do not get an error
 git config --global --list
