@@ -14,7 +14,7 @@ git config --global user.email "tux@example.com"
 
 git config --global user.name " Tux Penguin"
 
-#Now we do not get an erro
+#Now we do not get an error
 git config --global --list
 
 cat ~/.gitconfig
