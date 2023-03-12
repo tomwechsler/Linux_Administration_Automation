@@ -20,7 +20,7 @@ else
 ./pwgen.sh
 
 #The exit code
-echp $?
+echo $?
 
 #Edit the script again
 vim pwgen.sh
@@ -38,7 +38,6 @@ vim pwgen.sh
 
 
 
-
-The variable $? will contain the success or failure  of the previously executed
-command. We only want to create the user if the search for the user account
-fails, ||. We only want to create the users password if the search succeeds, &&.
+Scripts can take arguments; $O is always the script name. The number or
+arguments can be read using $#. $1 is the first argument. Using [[]] as your test
+brackets automatically protects reserved characters in variables.
