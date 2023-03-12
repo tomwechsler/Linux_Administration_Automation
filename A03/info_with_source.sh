@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 source /etc/os-release
 INFO_HOSTNAME=$(hostname) 
 INFO_IP=$(hostname -I | cut -f1 -d" ")
