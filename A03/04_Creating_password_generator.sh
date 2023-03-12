@@ -12,7 +12,7 @@ ls
 
 vim pwgen.sh
 
-!/bin/bash
+#!/bin/bash
 PWD_OK="false" 
 until [  "$PWD_OK" = "true" ] ; do
 #while [ "$PWD_OK" != "true" ] ; do 

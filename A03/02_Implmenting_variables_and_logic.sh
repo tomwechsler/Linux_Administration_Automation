@@ -19,7 +19,7 @@ echo "Kernel: $(uname -r)" | wc -m
 #With this knowledge we can adjust the script
 vim info.sh
 
-!/bin/bash
+#!/bin/bash
 INFO_HOSTNAME=$(hostname) 
 INFO_IP=$(hostname -I | cut -f1 -d' ')
 INFO_KERNEL=$(uname -r)
