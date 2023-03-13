@@ -6,8 +6,10 @@ sudo apt update
 #Install ansbile
 sudo apt install -y ansible
 
+#Check the version
 ansible --version
 
+#A first run
 ansible localhost -m ping
 
 
