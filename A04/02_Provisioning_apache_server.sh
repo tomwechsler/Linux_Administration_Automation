@@ -6,7 +6,7 @@ vagrant status
 vagrant destroy --force
 
 #Copy a file from the cloned repo
-cp ~/Linux_Administration_Automation/apache/web.html web
+cp ~/Linux_Administration_Automation/apache/web/index.html web
 
 cd web
 
