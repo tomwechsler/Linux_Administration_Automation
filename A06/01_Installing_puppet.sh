@@ -4,11 +4,11 @@
 sudo apt update
 
 #Search for the package
-apt search puppet
+sudo apt search puppet
 
-apt search '^puppet'
+sudo apt search '^puppet'
 
-apt search '^puppet$'
+sudo apt search '^puppet$'
 
 #Install puppet
 sudo apt install -y puppet
@@ -22,6 +22,7 @@ export RUBYOPT='-W0'
 #We use the help
 puppet help
 
+#Help about the resource
 puppet describe user
 
 #Check for a package
