@@ -17,7 +17,7 @@ vim playbook.yml
 #Save and exit
 
 #Check syntax
-ansible-playbook playbook.yml --check-syntax
+ansible-playbook playbook.yml --syntax-check
 
 #This is a check (-C check the operation - does nothing)
 ansible-playbook playbook.yml -C
