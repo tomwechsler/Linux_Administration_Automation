@@ -27,5 +27,8 @@ file_line { 'root_ssh':
 #Check the syntax
 puppet parser validate noroot.pp
 
+#Use the manifest
+sudo puppet apply noroot.pp 2>/dev/null
+
 #Check the PermitRoot Login in SSH
 sudo grep PermitRoot /etc/ssh/sshd_config
