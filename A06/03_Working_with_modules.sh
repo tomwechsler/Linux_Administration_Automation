@@ -6,16 +6,15 @@ sudo -i
 puppet module list
 
 #Download and install the modules
-puppet module install -i /usr/share/puppet/modules puppetlabs/apache
+puppet module install -i /usr/share/puppet/modules puppetlabs/ntp
 
 #This includes the standard library (puppetlabs-stdlib)
 
 #Install apapche
-puppet apply -e "include apache"
+puppet apply -e "include ntp"
 
-ss -ntl #Port 80
+ss -nul #Port 123
 
-curl loclhost
 
 
 
