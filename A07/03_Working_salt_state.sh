@@ -1,10 +1,10 @@
 #Working on openSUSE
 
 #List the state modules
-sudo salt-call --local sys.list_state_modules
+sudo salt-call --local sys.list_state_modules 2>/dev/null
 
 #List the functions of a state module
-sudo salt-call --local sys.list_state_functions pkg
+sudo salt-call --local sys.list_state_functions pkg 2>/dev/null
 
 #The standard path for salt
 sudo mkdir /srv/salt
@@ -15,7 +15,7 @@ echo "set bg=dark modeline" >> ~/.vimrc
 #Create a state file
 vim common.sls
 
-# vim: set ft=yaml ts=2 ai sw=2 et cul cul :
+# vim: set ft=yaml ts=2 ai sw=2 et cul cuc :
 Install_common_packages:
   pkg.installed:
     - pkgs:
@@ -33,13 +33,13 @@ Configure UK Time Zone on Salt Minions:
 sudo cp common.sls /srv/salt
 
 #Just a test
-sudo salt-call --local state.sls common test-True
+sudo salt-call --local state.sls common test-True 2>/dev/null
 
 #Apply
-sudo salt-call --local state.sls common
+sudo salt-call --local state.sls common 2>/dev/null
 
 #Did it work
-hostnamectl
+timedatectl
 
 
 A state file defines the desired state of the system. We can install multiple

@@ -4,16 +4,16 @@
 sudo zypper install salt-minion
 
 #Check the version
-sudo salt-call --local --version
+sudo salt-call --local --version 
 
 #A first the with the ping module
-sudo salt-call --local test.ping
+sudo salt-call --local test.ping 2>/dev/null
 
 #Another way to check the version
-sudo salt-call --local test.version
+sudo salt-call --local test.version 2>/dev/null
 
 #More infos
-sudo salt-call --local test.versions
+sudo salt-call --local test.versions 2>/dev/null
 
 
 
