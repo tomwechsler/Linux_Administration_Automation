@@ -1,10 +1,5 @@
 #Working on ubuntu
 
-#For later, we create a project folder
-mkdir ~/puppet 
-
-cd ~/puppet 
-
 #Start a root session
 sudo -i
 

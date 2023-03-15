@@ -3,12 +3,13 @@
 cat .vimrc #If needed set: set bg=dark modeline
 
 #Create a working directory
+mkdir puppet
 cd ~/puppet
 
 #Create the first manifest
 vim message.pp 
 
-vim: set ft=ruby ts=2 sw=2 et ai :
+# vim: set ft=ruby ts=2 sw=2 et ai :
 notify {'Hello World':
   message => "Welcome to puppet"
 }
@@ -42,7 +43,7 @@ user { 'Josy':
 #Save and exit
 
 #Run the manifest
-puppet apply user.pp
+sudo puppet apply user.pp
 
 getent passwd josy
 
