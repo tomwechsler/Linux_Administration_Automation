@@ -28,7 +28,7 @@ docker images
 ls /home
 
 #Now something really bad
-sudo docker run -it --name bad --privileged -v /:/host ubuntu chroot /host
+docker run -it --name bad --privileged -v /:/host ubuntu chroot /host
 
 useradd -m bob
 

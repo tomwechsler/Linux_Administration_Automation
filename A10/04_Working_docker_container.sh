@@ -1,21 +1,21 @@
 #Working on ubuntu
 
 #Use docker
-docker conatiner ls
+docker container ls
 
-docker conatiner ls -a
+docker container ls -a
 
 #Cleanup
-docker conatiner prune
+docker container prune
 
-docker conatiner ls -a
+docker container ls -a
 
-#Any container runnung
+#Any container running
 docker ps
 
 docker ps -a
 
-#Run a conatiner
+#Run a container
 docker run ubuntu
 
 docker ps
@@ -46,7 +46,7 @@ docker container attach u2
 exit
 
 #Cleanup
-docker conatiner prune
+docker container prune
 
 
 
