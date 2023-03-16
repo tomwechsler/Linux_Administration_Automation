@@ -22,9 +22,9 @@ ls
 docker build -t myweb .
 
 #Cleanup
-docker conatiner rm -f web
+docker container rm -f web
 
-#Create a new conatiner
+#Create a new container
 docker run -d -p 8000:80 --name web myweb
 
 curl localhost:8000
@@ -32,7 +32,7 @@ curl localhost:8000
 #The images
 docker image ls
 
-docker conatiner ls
+docker container ls
 
 #Cleanup
 docker image prune -a -f

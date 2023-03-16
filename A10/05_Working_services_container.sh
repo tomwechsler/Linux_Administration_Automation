@@ -10,7 +10,7 @@ docker inspect -f "{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}" web
 curl <ip address>
 
 #Cleanup
-docker conatiner rm -f web
+docker container rm -f web
 
 #Create a working directory
 mkdir web
