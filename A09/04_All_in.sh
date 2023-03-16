@@ -20,7 +20,7 @@ sudo apt install -y ansible
 vim play.yaml
 
 ---
-- name: Setup Terraform on New Ubuntu 20.04 System
+- name: Setup Terraform on New Ubuntu System
   hosts: localhost
   gather_facts: true
   tasks:
