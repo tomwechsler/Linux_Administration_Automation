@@ -11,3 +11,8 @@
 <https://www.opensuse.org/>
 
 <https://www.redhat.com/de>
+
+https://hub.docker.com/
+
+https://registry.terraform.io/browse/providers
+
