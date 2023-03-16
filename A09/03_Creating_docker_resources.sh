@@ -6,7 +6,7 @@ ls
 mkdir web
 
 #A sample index.html
-echo > web/index.html
+echo "hello" > web/index.html
 
 #Edit the main.tf file
 vim main.tf #:set ai et ts=2 sw=2
@@ -17,7 +17,7 @@ resource "docker_image" "nginx" {
 }
 
 resource "docker_container" "nginx" {
-  image = docker_image.nginx.latest
+  image = docker_image.nginx.repo_digest
   name = "webserver"
   ports {
     internal = 80
