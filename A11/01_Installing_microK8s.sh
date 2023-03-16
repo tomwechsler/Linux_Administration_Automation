@@ -7,7 +7,7 @@ free -h
 sudo snap install microk8s --classic
 
 #Add the user to the group
-sudo gpasswd -a $USER microk8sa 
+sudo gpasswd -a $USER microk8s
 
 exit
 
